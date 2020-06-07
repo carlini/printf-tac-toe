@@ -62,7 +62,7 @@ If this is the kind of thing that you enjoy, you might also like [printbf](https
 
 ## USAGE
 
-    gcc -o prog prog.c
+    gcc -o prog printtt.c
     ./prog
 
 Alternates between P1 and P2. Enter a digit [1-9] to move:
