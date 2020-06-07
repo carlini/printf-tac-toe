@@ -274,7 +274,7 @@ statement, but it has the same effect.)
 Notice there is now no initial `printf()`. In order make sure the program doesn't
 block before the first `printf()`, but we initialize the `scanf()` format to the null
 string so that it returns right away without blocking. The first time the `printf()`
-call runs, it writes out `"%hhd"` to create the create the `scanf()` format string.
+call runs, it writes out `"%hhd"` to create the `scanf()` format string.
 
 
 ## LICENSE
