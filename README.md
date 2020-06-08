@@ -99,7 +99,7 @@ to be Turing complete. (See "Control-Flow Bending: On the Effectiveness of Contr
 Integrity" where we introduced this in an actual, published, academic paper. The
 things you can get away with sometimes.)
 
-We ab^H^Huse this fact to implement a the logic of tic-tac-toe entirely within
+We ab^H^Huse this fact to implement the logic of tic-tac-toe entirely within
 this one printf call (and a call to scanf() to read user input).
 
 Here's (briefly) how it works.
@@ -240,7 +240,7 @@ Depending on if it's P1 or P2's turn to move, the game is over and someone
 won, or the game is over and it is a draw.
 
 This turns out not to be as hard as it might look. Using the same trick as
-before, we set byte for to be
+before, we set byte four to be
 
     *byte4 = is_win * 'W' + is_tie * 'T'
 
