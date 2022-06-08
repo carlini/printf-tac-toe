@@ -81,7 +81,7 @@ The game ends if:
 
 ## WHY?
 
-[IOCCC](http://ioccc.org)
+[IOCCC](https://www.ioccc.org)
 
 
 ## OBFUSCATION
